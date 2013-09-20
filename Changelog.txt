@@ -1,0 +1,67 @@
+*** Flat UI Pro (PSD+HTML) Changelog ***
+
+2013.09.18 - version 1.2.1
+    Border for navbar removed;
+    Out-of-date links removed from template.html file;
+    Padding removed for .modal-dialog;
+    Opacity mixin now accepts decimal numbers instead of integers;
+    Several bugs fixed in IE8;
+    Other minor corrections and improvements.
+
+2013.09.05 - version 1.2
+    Bootstrap 3.0 support
+    New 50 colorful icons
+    New icon format: SVG
+    Text-based form controls are now 100% wide
+    Search forms have been removed (".search-form")
+    A more flexible Bootstrap grid is used for assigning sizes of form elements using classes
+    Append/prepend elements have been updated, the code has been moved to a separate file
+    Appearance of tables on mobile devices has been modified, we have decided to stop using stacktable plug-in
+    Lato font is now placed locally, which will resolve the issue with content uploads via various http/https protocols, and will make it possible to work locally with Flat UI
+    .badge no longer has contextual (-success,-primary,etc..) classes
+    Modal markup has changed significantly
+    Alignment for tabs (.tabs-left .tabs-right) has been removed
+    Main file with styles (flat-ui.css) has thinned from 147 kb to 114 kb
+    box-sizing: border-box by default for all elements
+    Documentation has been updated
+
+2013.07.18 - version 1.1.3
+Added:
+    Added component documentation (components.html)
+    Autocomplete (Typeahead)
+    Modals
+    Carousel
+    Optimized PNG (Less 120 kB)
+    Added a link on how to add/change glyphs in Flat UI Icons font to documentation.html
+    Added cross-link to components.html on documentation.html
+
+Fixed:
+    Fixed bug where .dropdown was broken in .pagination-minimal
+    Fix Adding small tag to .brand in top nav breaks the menu
+    Fix Remove dependency of jQuery datepicker
+    Fix Datepicker .error border
+    Fix Navbar on Chrome 28 (Linux)
+    Fix Pager broken in Safari
+    Fix navbar-inverse menu links padding bug
+    Fix Header not vertically centering an icon
+    Minor bug fixes - PSD version
+
+2013.05.22 - version 1.1
+HTML/Bootstrap
+    Fixed Less compiler bugs
+    Resolved Photoshop Glyphs issue
+    Fixed small typography issues
+    Checkbox/radio JS refactoring and styling bugfixes (new change event added)
+    Resolved Slider JS issue
+    Added .row-fluid support
+    Added Photoshop Swatches
+    Added documentation on how to start using Flat UI
+    Typehead bugfix
+    Added template.html for those who want to start blazin' fast
+    Bootstrap updated to 2.3.2
+
+PSD
+    Added Auto-complete element
+    Added Modal Popup element
+    Added Carousel Photo Slider element
+    Various small bug fixes.
